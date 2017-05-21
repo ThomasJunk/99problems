@@ -9,7 +9,7 @@ defmodule Problem4 do
   end
 
   defp _len([_|xs], a) do
-    _len(xs, a+1)
+    _len(xs, a)
   end
 
 end

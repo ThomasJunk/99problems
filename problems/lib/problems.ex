@@ -2,9 +2,9 @@ defmodule Problems.CLI do
   @moduledoc """
   Documentation for Problems.
   """
-  import Problem4
+  import Problem5
 
   def main(_) do
-    IO.inspect(len([5,4,3,2,1,1]))
+    IO.inspect(rev([1,2,3,4,5]))
   end
 end
