@@ -2,11 +2,11 @@ defmodule Problems.CLI do
   @moduledoc """
   Documentation for Problems.
   """
-  import Problem11
+  import Problem12
 
   def main(_) do
-    [1,2,2,2,2,2,2,3,4,5,5,5,6,6,6,7]
-    |> enc_mod
+    ['o',{2,'t'},'o','p', 'o', {2, 'p'}, 'o']
+    |> dec
     |> IO.inspect
   end
 
