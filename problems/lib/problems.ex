@@ -2,11 +2,11 @@ defmodule Problems.CLI do
   @moduledoc """
   Documentation for Problems.
   """
-  import Problem14
+  import Problem15
 
   def main(_) do
     [1,2,3]
-    |> dup
+    |> replicate(5)
     |> IO.inspect
   end
 
