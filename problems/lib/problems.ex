@@ -2,9 +2,11 @@ defmodule Problems.CLI do
   @moduledoc """
   Documentation for Problems.
   """
-  import Problem6
+  import Problem7
 
   def main(_) do
-    IO.inspect(is_palindrome('OTTO'))
+    [1,[[2],[3, [4]]],[[[]]],[6]]
+    |> flattn
+    |> IO.inspect
   end
 end
