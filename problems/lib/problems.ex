@@ -2,11 +2,12 @@ defmodule Problems.CLI do
   @moduledoc """
   Documentation for Problems.
   """
-  import Problem7
+  import Problem8
 
   def main(_) do
-    [1,[[2],[3, [4]]],[[[]]],[6]]
-    |> flattn
+    'OTTO'
+    |> dedup
     |> IO.inspect
   end
+  
 end
